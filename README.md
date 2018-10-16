@@ -32,3 +32,4 @@ for i in *.bam; do samtools index $i; done
 for i in *.bam; do python /nfs/kitzman2/isaac/xj_scripts/20180412_VarCall_todf_plasmidref.py /nfs/kitzman2/isaac/miseq/20180419_miseq/20180424MSH2_1-934_NNN_out/ $i &
 done
 
+# this will generate some .csv files eg. 
